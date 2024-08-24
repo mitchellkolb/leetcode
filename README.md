@@ -17,30 +17,30 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         <td> 1 </td>
         <td><a href="https://leetcode.com/problems/two-sum">Two Sum</a></td>
         <td>
-            <a href="./algorithms/cpp/two_sum/two_sum.cpp">C++</a>, 
-            <a href="./algorithms/python/two_sum/two_sum.py">Python</a>
+            <!-- <a href="./algorithms/cpp/two_sum/two_sum.cpp">C++</a>,  -->
+            <a href="./algorithms/python/two-sum/1.TwoSum.py">Python</a>
         </td>
         <td>Easy</td>
     </tr>
     <tr>
-        <td> 2 </td>
+        <td> 9 </td>
         <td>
-            <a href="https://leetcode.com/problems/add-two-numbers">Add Two Numbers</a>
+            <a href="https://leetcode.com/problems/palindrome-number">Palindrome Number</a>
         </td>
         <td>
-            <a href="./algorithms/cpp/add_two_numbers/add_two_numbers.cpp">C++</a>, 
+            <a href="./algorithms/python/palindrome-number/9.PalindromeNumber.py">Python</a>, 
         </td>
-        <td>Medium</td> 
+        <td>Easy</td> 
     </tr>
     <tr>
-        <td>3</td>
+        <td>13</td>
         <td>
-            <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters">
-                Longest Substring Without Repeating Characters
+            <a href="https://leetcode.com/problems/roman-to-integer">
+                Roman To Integer
             </a>
         </td>
         <td>
-            <a href="./algorithms/cpp/length_of_longest_substring/length_of_longest_substring.cpp">C++</a>,
+            <a href="./algorithms/python/roman-to-integer/13.RomanToInteger.py">Python</a>,
         </td>
-        <td>Medium</td>
+        <td>Easy</td>
     </tr>
