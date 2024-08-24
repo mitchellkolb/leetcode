@@ -28,7 +28,7 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
             <a href="https://leetcode.com/problems/palindrome-number">Palindrome Number</a>
         </td>
         <td>
-            <a href="./algorithms/python/palindrome-number/9.PalindromeNumber.py">Python</a>, 
+            <a href="./algorithms/python/palindrome-number/9.PalindromeNumber.py">Python</a>
         </td>
         <td>Easy</td> 
     </tr>
@@ -40,7 +40,7 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
             </a>
         </td>
         <td>
-            <a href="./algorithms/python/roman-to-integer/13.RomanToInteger.py">Python</a>,
+            <a href="./algorithms/python/roman-to-integer/13.RomanToInteger.py">Python</a>
         </td>
         <td>Easy</td>
     </tr>
