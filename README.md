@@ -44,3 +44,15 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+        <tr>
+        <td>13</td>
+        <td>
+            <a href="https://leetcode.com/problems/game-play-analysis-i/">
+                Game Play Analysis
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/sql/game-play-analysis/511.GamePlayAnalysis.sql">PostgreSQL</a>
+        </td>
+        <td>Easy</td>
+    </tr>
