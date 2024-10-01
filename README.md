@@ -48,7 +48,7 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         <td>511</td>
         <td>
             <a href="https://leetcode.com/problems/game-play-analysis-i/">
-                Game Play Analysis
+                Game Play Analysis 1
             </a>
         </td>
         <td>
