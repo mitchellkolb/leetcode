@@ -45,7 +45,7 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         <td>Easy</td>
     </tr>
         <tr>
-        <td>13</td>
+        <td>511</td>
         <td>
             <a href="https://leetcode.com/problems/game-play-analysis-i/">
                 Game Play Analysis
