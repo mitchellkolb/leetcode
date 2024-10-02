@@ -40,3 +40,52 @@ if [ "$answer" = "yes" ]; then
     echo "$notestext" >> "$notesfile"
     echo "Notes added to '$notesfile'."
 fi
+
+
+
+echo "Welcome to the File Manager!"
+
+# Prompt for operation
+echo "Choose an operation: move, copy, backup"
+read operation
+
+# Get source and destination
+echo "Enter the source file or directory:"
+read source
+
+echo "Enter the destination directory:"
+read destination
+
+# Check if source exists
+if [ ! -e "$source" ]; then
+    echo "Source '$source' does not exist."
+    exit 1
+fi
+
+# Ensure destination directory exists
+mkdir -p "$destination"
+
+# Perform the chosen operation
+case "$operation" in
+    move)
+        mv -i "$source" "$destination"
+        echo "Moved '$source' to '$destination'."
+        ;;
+    copy)
+        if [ -d "$source" ]; then
+            cp -ri "$source" "$destination"
+        else
+            cp -i "$source" "$destination"
+        fi
+        echo "Copied '$source' to '$destination'."
+        ;;
+    backup)
+        timestamp=$(date +"%Y%m%d_%H%M%S")
+        backupname="$(basename "$source")_$timestamp"
+        cp -r "$source" "$destination/$backupname"
+        echo "Backup of '$source' created at '$destination/$backupname'."
+        ;;
+    *)
+        echo "Invalid operation."
+        ;;
+esac
