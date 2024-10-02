@@ -57,3 +57,18 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <tr>
+        <td>3110</td>
+        <td>
+            <a href="https://leetcode.com/problems/score-of-a-string/">
+                Score Of A String
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/3110/score-of-a-string.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
