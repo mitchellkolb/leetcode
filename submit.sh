@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This is a script to help automate the process to add code files into the right folder and edit the read when I submit my leetcodes solutions
+# This is a script to help automate the process to add code files into the right folder and edit the readme table when I submit my leetcodes solutions
 
 
 # User input
@@ -9,7 +9,7 @@ read -p "Enter the Leetcode Problem Title: " leetTitle
 read -p "Enter the Language Used: " leetLanguage
 read -p "Enter the Difficulty: " leetDifficulty
 
-# If-else treeFile Extension Language Variables
+# If-else tree for the File Extension Language Variable
 capitalLanguage=""
 filename=""
 if [ "$leetLanguage" == "python" ]; then
@@ -33,7 +33,7 @@ modified_string=$(echo "$leetTitle" | sed 's/-/ /g')
 capitalized_string=$(echo "$modified_string" | awk '{ for(i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) tolower(substr($i,2)); print }')
 
 
-# # Output the result
+# # Printing the Variables for testing
 # echo $leetNumber 
 # echo $leetTitle
 # echo $leetLanguage
@@ -44,9 +44,9 @@ capitalized_string=$(echo "$modified_string" | awk '{ for(i=1;i<=NF;i++) $i=toup
 
 
 
-# --------------------------------------------
-# -------  Moving Code File to folder --------
-# --------------------------------------------
+# -------------------------------------------------------
+# -------  Moving Temp Code File to Right Folder --------
+# -------------------------------------------------------
 
 # Checks to see if .../langauge/problem/ folder is created
 folderCheck="algorithms/$leetLanguage/$leetNumber"
@@ -78,7 +78,7 @@ fi
 
 
 # ---------------------------------------------------------
-# -------  Adding the new problem to the README.md --------
+# -------  Adding the New Problem to the README.md --------
 # ---------------------------------------------------------
 phrase="    <tr>
         <tr>
