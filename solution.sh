@@ -1,51 +1,107 @@
 #!/bin/bash
 
-echo "hello me"
-
 
 
 # User input
 read -p "Enter the Leetcode Problem Number: " leetNumber
 read -p "Enter the Leetcode Problem Title: " leetTitle
-read -p "Enter the Language Used: " language
-echo $leetNumber 
-echo $leetTitle
-echo $language
+read -p "Enter the Language Used: " leetLanguage
+read -p "Enter the Difficulty: " leetDifficulty
 
-# File Extension Language Variables
-textCpp=".cpp"
-textPython=".py"
-textSql=".sql"
-
-
-# Hardcoded variable for the folder name
-FOLDER_NAME="myfolder"
-
-# Check if the folder exists
-if [ -d "$FOLDER_NAME" ]; then
-    echo "Folder '$FOLDER_NAME' exists."
-    exit 0  # End the script if the folder exists
+# If-else treeFile Extension Language Variables
+capitalLanguage=""
+filename=""
+if [ "$leetLanguage" == "python" ]; then
+    filename="$leetTitle.py"
+    capitalLanguage="Python"
+elif [ "$leetLanguage" == "cpp" ]; then
+    filename="$leetTitle.cpp"
+    capitalLanguage="C++"
+elif [ "$leetLanguage" == "sql" ]; then
+    filename="$leetTitle.sql"
+    capitalLanguage="SQL"
 else
-    echo "Folder '$FOLDER_NAME' does not exist."
+    echo "Unsupported language: $leetLanguage"
+    exit 1  # Exit the script if the language is not supported
 fi
 
-# Continue with the script if the folder does not exist
-echo "ALRIGHT"
+# Making the string for the title
+# Replace hyphens with spaces
+modified_string=$(echo "$leetTitle" | sed 's/-/ /g')
+# Capitalize each word
+capitalized_string=$(echo "$modified_string" | awk '{ for(i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) tolower(substr($i,2)); print }')
 
-# # Define the source file relative to the current script's location
-# SOURCE_FILE="./temp/test.py"
 
-# # Define the destination directory relative to the current script's location
-# # or hardcode a known local path if needed
-# DESTINATION_DIR="./algorithms/python/other/"
+# # Output the result
+# echo $leetNumber 
+# echo $leetTitle
+# echo $leetLanguage
+# echo $leetDifficulty
+# echo $capitalized_string
+# echo $filename
+# echo $capitalLanguage
 
-# # Check if the source file exists
-# if [ -f "$SOURCE_FILE" ]; then
-#     # Move the file to the destination directory
-#     mv "$SOURCE_FILE" "$DESTINATION_DIR"
-#     echo "File moved successfully to $DESTINATION_DIR"
-# else
-#     echo "Source file does not exist."
-# fi
+
+
+# --------------------------------------------
+# -------  Moving Code File to folder --------
+# --------------------------------------------
+
+# Checks to see if .../langauge/problem/ folder is created
+folderCheck="algorithms/$leetLanguage/$leetNumber"
+
+if [ -d "$folderCheck" ]; then
+    echo "Problem has already been completed: '$folderCheck'"
+    exit 0  # End the script if the directory exists
+fi
+
+# Creates the directory for the new problem
+mkdir -p "$folderCheck"
+echo "Directory '$folderCheck' has been created"
+
+# Move the file from the temp folder to the new problem folder
+tempCodeFileSource="./temp/test.py"
+tempCodeFileDestination="./algorithms/python/other/"
+
+tempCodeFileSource="./temp/$filename"
+tempCodeFileDestination="./$folderCheck/"
+# Check if the source file exists
+if [ -f "$tempCodeFileSource" ]; then
+    # Move the file to the destination directory
+    mv "$tempCodeFileSource" "$tempCodeFileDestination"
+    echo "Moved Code successfully to $tempCodeFileDestination"
+else
+    echo "Source file does not exist."
+fi
+
+
+
+# ---------------------------------------------------------
+# -------  Adding the new problem to the README.md --------
+# ---------------------------------------------------------
+phrase="
+    <tr>
+        <tr>
+        <td>$leetNumber</td>
+        <td>
+            <a href=\"https://leetcode.com/problems/$leetTitle/\">
+                $capitalized_string
+            </a>
+        </td>
+        <td>
+            <a href=\"./algorithms/$leetLanguage/$leetNumber/$filename\">
+                $capitalLanguage
+            </a>
+        </td>
+        <td>$leetDifficulty</td>
+    </tr>"
+
+# Append the phrase to the README.md file
+echo "$phrase" >> README.md
+
+# Confirmation message
+echo "The README.md is updated"
+
+
 
 

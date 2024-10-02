@@ -57,3 +57,18 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <tr>
+        <td>4</td>
+        <td>
+            <a href="https://leetcode.com/problems/test-file/">
+                Test File
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/sql/4/test-file.sql">
+                PostgreSQL
+            </a>
+        </td>
+        <td>Bad</td>
+    </tr>
