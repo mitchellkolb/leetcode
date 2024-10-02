@@ -1,53 +1,42 @@
 #!/bin/bash
 
-# Prompt the user for the problem name
-read -p "Name of problem: " problem_name
+echo "Welcome to the File Organizer!"
 
-# Ask for the solution type (Python, C++, or SQL)
-echo "What is the type of your solution? (Enter 'python', 'cpp', or 'sql')"
-read -r solution_type
+# Get directory name from user
+echo "Enter a name for the new directory:"
+read dirname
 
-# Determine the directory path and file extension based on the solution type
-case "$solution_type" in
-    python)
-        directory_path="algorithms/python/$problem_name"
-        solution_file="solution.py"
-        ;;
-    cpp)
-        directory_path="algorithms/cpp/$problem_name"
-        solution_file="solution.cpp"
-        ;;
-    sql)
-        directory_path="algorithms/sql/$problem_name"
-        solution_file="solution.sql"
-        ;;
-    *)
-        echo "Invalid solution type. Please enter 'python', 'cpp', or 'sql'."
-        exit 1
-        ;;
-esac
-
-# Check if the directory already exists, and exit if it does
-if [ -d "$directory_path" ]; then
-    echo "Directory '$directory_path' already exists."
-    exit 1
+# Check if directory exists
+if [ -d "$dirname" ]; then
+    echo "Directory '$dirname' already exists."
+else
+    mkdir "$dirname"
+    echo "Directory '$dirname' created."
 fi
 
-# Create the directory
-echo "Creating directory '$directory_path'"
-mkdir -p "$directory_path"
-if [ $? -ne 0 ]; then
-    echo "Failed to create directory '$directory_path'."
-    exit 1
+# Get filename from user
+echo "Enter the filename to move into '$dirname':"
+read filename
+
+# Check if file exists
+if [ -f "$filename" ]; then
+    mv "$filename" "$dirname"
+    echo "Moved '$filename' into '$dirname'."
+else
+    echo "File '$filename' does not exist."
 fi
 
-# Change to the directory
-cd "$directory_path" || { echo "Failed to enter directory '$directory_path'"; exit 1; }
+# Append text to a file
+echo "Do you want to add notes to a file? (yes/no)"
+read answer
 
-# Create the solution file and the solution description file
-touch "$solution_file" solution.md
-if [ $? -ne 0 ]; then
-    echo "Failed to create files '$solution_file' and 'solution.md'."
-    exit 1
+if [ "$answer" = "yes" ]; then
+    echo "Enter the filename to append to (it will be created if it doesn't exist):"
+    read notesfile
+
+    echo "Enter the text to append:"
+    read notestext
+
+    echo "$notestext" >> "$notesfile"
+    echo "Notes added to '$notesfile'."
 fi
-echo "Directory '$directory
