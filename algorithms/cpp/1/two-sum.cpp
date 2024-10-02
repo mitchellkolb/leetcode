@@ -1,4 +1,15 @@
+
+
 #include <stdio.h> // Include the standard input/output library for printf
+
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        
+    }
+};
+
 
 int main() {
     // Print "Hello, World!" to the console

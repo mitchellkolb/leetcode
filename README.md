@@ -18,7 +18,7 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         <td><a href="https://leetcode.com/problems/two-sum">Two Sum</a></td>
         <td>
             <!-- <a href="./algorithms/cpp/two_sum/two_sum.cpp">C++</a>,  -->
-            <a href="./algorithms/python/two-sum/1.TwoSum.py">Python</a>
+            <a href="./algorithms/python/1/two-sum.py">Python</a>
         </td>
         <td>Easy</td>
     </tr>
@@ -28,7 +28,7 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
             <a href="https://leetcode.com/problems/palindrome-number">Palindrome Number</a>
         </td>
         <td>
-            <a href="./algorithms/python/palindrome-number/9.PalindromeNumber.py">Python</a>
+            <a href="./algorithms/python/9/palindrome-number.py">Python</a>
         </td>
         <td>Easy</td> 
     </tr>
@@ -40,10 +40,11 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
             </a>
         </td>
         <td>
-            <a href="./algorithms/python/roman-to-integer/13.RomanToInteger.py">Python</a>
+            <a href="./algorithms/python/13/roman-to-integer.py">Python</a>
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
         <tr>
         <td>511</td>
         <td>
@@ -52,7 +53,7 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
             </a>
         </td>
         <td>
-            <a href="./algorithms/sql/game-play-analysis/511.GamePlayAnalysis.sql">PostgreSQL</a>
+            <a href="./algorithms/sql/511/game-play-analysis-i.sql">PostgreSQL</a>
         </td>
         <td>Easy</td>
     </tr>
