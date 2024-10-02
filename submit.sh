@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# This is a script to help automate the process to add code files into the right folder and edit the readme table when I submit my leetcodes solutions
-
+# This is a script to help automate the process to add code files into the right folder and edit the readme table when I submit my leetcodes solutions. 
+# For this to work please make sure that the Leetcode Problem Title is the same string as the file title which is the same as the string of the problem label in the actual leetcode URL
 
 # User input
 read -p "Enter the Leetcode Problem Number: " leetNumber
