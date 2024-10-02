@@ -33,30 +33,21 @@ if [ -d "$directory_path" ]; then
     exit 1
 fi
 
-# Create the directory and move into it
+# Create the directory
+echo "Creating directory '$directory_path'"
 mkdir -p "$directory_path"
-cd "$directory_path" || exit
+if [ $? -ne 0 ]; then
+    echo "Failed to create directory '$directory_path'."
+    exit 1
+fi
+
+# Change to the directory
+cd "$directory_path" || { echo "Failed to enter directory '$directory_path'"; exit 1; }
 
 # Create the solution file and the solution description file
 touch "$solution_file" solution.md
-echo "Directory '$directory_path' and files '$solution_file' and 'solution.md' have been created."
-
-# Read the solution content and save it to the appropriate file
-echo "Please paste your solution content below. Press Ctrl+D when you're done:"
-solution_content=$(cat)
-if [ -n "$solution_content" ]; then
-    echo "$solution_content" > "$solution_file"
-    echo "Content has been written to '$solution_file'."
-else
-    echo "No solution content provided. '$solution_file' is empty."
+if [ $? -ne 0 ]; then
+    echo "Failed to create files '$solution_file' and 'solution.md'."
+    exit 1
 fi
-
-# Read the problem description and save it to solution.md
-echo "Please paste your problem description below. Press Ctrl+D when you're done:"
-problem_content=$(cat)
-if [ -n "$problem_content" ]; then
-    echo "$problem_content" > solution.md
-    echo "Content has been written to 'solution.md'."
-else
-    echo "No problem description provided. 'solution.md' is empty."
-fi
+echo "Directory '$directory
