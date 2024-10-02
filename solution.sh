@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# This is a script to help automate the process to add code files into the right folder and edit the read when I submit my leetcodes solutions
 
 
 # User input
@@ -79,8 +80,7 @@ fi
 # ---------------------------------------------------------
 # -------  Adding the new problem to the README.md --------
 # ---------------------------------------------------------
-phrase="
-    <tr>
+phrase="    <tr>
         <tr>
         <td>$leetNumber</td>
         <td>
