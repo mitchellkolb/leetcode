@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # This is a script to help automate the process to add code files into the right folder and edit the readme table when I submit my leetcodes solutions. 
-# For this to work please make sure that the Leetcode Problem Title is the same string as the file title which is the same as the string of the problem label in the actual leetcode URL
+# For this to work, please put your leetcode code file in the temp folder and ensure that the Leetcode code file title is the same string as the file title and matches the problem label in the actual Leetcode URL. For example if you worked on problem: https://leetcode.com/problems/two-sum/    in python then you would put your code file in the temp folder with the name of the file as "two-sum.py". The file title "two-sum" is also refered to as the problem title. 
+
 
 # User input
 read -p "Enter the Leetcode Problem Number: " leetNumber
