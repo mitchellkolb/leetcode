@@ -1,5 +1,6 @@
-# Might need to change permissions to run it use this command. Set-ExecutionPolicy RemoteSigned
-#Then run it with: .\submit.ps1
+# Might need to change permissions to run it use this file. Open up powershell as administrator and use commands
+# Set-ExecutionPolicy RemoteSigned
+# Then run it with: .\submit.ps1
 
 # This is a PowerShell script to help automate the process to add code files into the right folder and edit the README table when you submit your Leetcode solutions.
 # For this to work, please ensure that the Leetcode Problem Title is the same string as the file title and matches the problem label in the actual Leetcode URL.
@@ -9,6 +10,8 @@ $leetNumber = Read-Host "Enter the Leetcode Problem Number"
 $leetTitle = Read-Host "Enter the Leetcode Problem Title"
 $leetLanguage = Read-Host "Enter the Language Used (e.g., python, cpp, sql)"
 $leetDifficulty = Read-Host "Enter the Difficulty (e.g., Easy, Medium, Hard)"
+Write-Host ""
+
 
 # If-else logic for the File Extension and Language Variable
 $capitalLanguage = ""
@@ -35,7 +38,9 @@ else {
 # Replace hyphens with spaces
 $modified_string = $leetTitle -replace '-', ' '
 # Capitalize each word
-$capitalized_string = ($modified_string -split ' ') | ForEach-Object { $_.Substring(0,1).ToUpper() + $_.Substring(1).ToLower() } -join ' '
+$capitalized_string = (Get-Culture).TextInfo.ToTitleCase($modified_string)
+
+
 
 # -------------------------------------------------------
 # -------  Moving Temp Code File to Right Folder --------
