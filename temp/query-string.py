@@ -48,6 +48,8 @@ def queryString(inputStr: str) -> dict:
         return {}
 
 
+
+#Testing the made up function with an adjustable list of strings
 tests = ["", "?", "?a=b", "?a=b&c=d"]
 for item in tests:
     print(queryString(item))
