@@ -1,4 +1,27 @@
 
+"""
+input : "?foo=hello&other=world"
+
+output: {
+    foo: "hello",
+    other: "world"
+}
+"""
+
+
+"""
+    Assumptions:
+- Query String can be empty but will always have a ? at the start.
+- string items are always seperated with &
+- string items are always two parts seperated with a =
+- chars & and = can't be in the contents of the string only as seperators for key value pairs
+
+    Test:
+"?"
+"?a=b&c=d"
+"?a=b"
+
+"""
 
 
 def queryString(inputStr: str) -> dict:
