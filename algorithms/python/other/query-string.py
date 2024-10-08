@@ -23,6 +23,15 @@ output: {
 
 """
 
+"""
+This question is from a mock software interview that you can find at this link to view and watch
+https://youtu.be/7CWM-jLowpk?si=DO9DsTpmiZxIGFGx
+
+In this interview you can see that I've compelted the question slightly differently but I would say that I did it will some more considerations in mind
+
+"""
+
+
 
 def queryString(inputStr: str) -> dict:
 
