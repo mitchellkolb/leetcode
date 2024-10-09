@@ -72,3 +72,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>217</td>
+        <td>
+            <a href="https://leetcode.com/problems/contains-duplicate/">
+                Contains Duplicate
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/217/contains-duplicate.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>

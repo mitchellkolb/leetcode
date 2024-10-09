@@ -7,7 +7,7 @@
 
 # User input
 $leetNumber = Read-Host "Enter the Leetcode Problem Number"
-$leetTitle = Read-Host "Enter the Leetcode Problem Title"
+$leetTitle = Read-Host "Enter the Leetcode Problem File Title (no .py ext)"
 $leetLanguage = Read-Host "Enter the Language Used (e.g., python, cpp, sql)"
 $leetDifficulty = Read-Host "Enter the Difficulty (e.g., Easy, Medium, Hard)"
 Write-Host ""
