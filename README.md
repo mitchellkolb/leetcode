@@ -86,3 +86,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>242</td>
+        <td>
+            <a href="https://leetcode.com/problems/valid-anagram/">
+                Valid Anagram
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/242/valid-anagram.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
