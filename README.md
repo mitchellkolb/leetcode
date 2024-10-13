@@ -100,3 +100,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>49</td>
+        <td>
+            <a href="https://leetcode.com/problems/group-anagrams/">
+                Group Anagrams
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/49/group-anagrams.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
