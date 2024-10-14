@@ -114,3 +114,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>26</td>
+        <td>
+            <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">
+                Remove Duplicates From Sorted Array
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/26/remove-duplicates-from-sorted-array.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
