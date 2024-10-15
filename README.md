@@ -128,3 +128,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>66</td>
+        <td>
+            <a href="https://leetcode.com/problems/plus-one/">
+                Plus One
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/66/plus-one.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
