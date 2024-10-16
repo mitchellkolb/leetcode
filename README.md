@@ -142,3 +142,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>67</td>
+        <td>
+            <a href="https://leetcode.com/problems/add-binary/">
+                Add Binary
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/67/add-binary.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
