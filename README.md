@@ -156,3 +156,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>20</td>
+        <td>
+            <a href="https://leetcode.com/problems/valid-parentheses/">
+                Valid Parentheses
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/20/valid-parentheses.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
