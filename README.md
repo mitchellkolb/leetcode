@@ -170,3 +170,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>347</td>
+        <td>
+            <a href="https://leetcode.com/problems/top-k-frequent-elements/">
+                Top K Frequent Elements
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/347/top-k-frequent-elements.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
