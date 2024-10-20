@@ -184,3 +184,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>271</td>
+        <td>
+            <a href="https://leetcode.com/problems/encode-and-decode-strings/">
+                Encode And Decode Strings
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/271/encode-and-decode-strings.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
