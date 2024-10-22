@@ -212,3 +212,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>36</td>
+        <td>
+            <a href="https://leetcode.com/problems/valid-sudoku/">
+                Valid Sudoku
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/36/valid-sudoku.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
