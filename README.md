@@ -226,3 +226,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>128</td>
+        <td>
+            <a href="https://leetcode.com/problems/longest-consecutive-sequence/">
+                Longest Consecutive Sequence
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/128/longest-consecutive-sequence.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
