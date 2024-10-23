@@ -240,3 +240,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>500</td>
+        <td>
+            <a href="https://leetcode.com/problems/keyboard-row/">
+                Keyboard Row
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/500/keyboard-row.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
