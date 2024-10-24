@@ -254,3 +254,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>155</td>
+        <td>
+            <a href="https://leetcode.com/problems/min-stack/">
+                Min Stack
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/155/min-stack.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
