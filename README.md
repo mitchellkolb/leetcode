@@ -268,3 +268,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>1002</td>
+        <td>
+            <a href="https://leetcode.com/problems/find-common-characters/">
+                Find Common Characters
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/1002/find-common-characters.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
