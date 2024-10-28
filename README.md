@@ -282,3 +282,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>150</td>
+        <td>
+            <a href="https://leetcode.com/problems/evaluate-reverse-polish-notation/">
+                Evaluate Reverse Polish Notation
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/150/evaluate-reverse-polish-notation.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
