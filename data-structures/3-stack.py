@@ -1,19 +1,26 @@
 
 
+class Stack:
 
-def stack(target: int) -> int:
-    nums = 2
+    def __init__(self):
+        self.stackList = []
 
-    return nums
+    def push(self, val: int) -> None:
+        self.stackList.append(val)
 
+    def pop(self) -> int:
+        return (self.stackList.pop(-1))
+
+    def top(self) -> int:
+        return self.stackList[-1]
 
 """
-Selectio
-
-It go
+Stacks are a way of storing and handling data. While it is used in leetcode for sorting and searching problems its purpose is a way to store items in a first in last out format.
 """
 
-
-nums = [58, 43]
-target = 10
-print(stack(nums, target))
+stack = Stack()
+nums = [1,2,3,4,5]
+for num in nums:
+    stack.push(num)
+for i in range(len(nums)):
+    print(stack.pop())
