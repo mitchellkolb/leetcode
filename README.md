@@ -310,3 +310,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>739</td>
+        <td>
+            <a href="https://leetcode.com/problems/daily-temperatures/">
+                Daily Temperatures
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/739/daily-temperatures.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
