@@ -296,3 +296,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>71</td>
+        <td>
+            <a href="https://leetcode.com/problems/simplify-path/">
+                Simplify Path
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/71/simplify-path.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
