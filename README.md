@@ -338,3 +338,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>1598</td>
+        <td>
+            <a href="https://leetcode.com/problems/crawler-log-folder/">
+                Crawler Log Folder
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/1598/crawler-log-folder.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
