@@ -17,12 +17,13 @@
 - Sliding Window
 - Backtracking
 - Dynamic Programing
-
+- Heaps
+- HashMaps
 
 # Searching 
 - Binary Search
 - Two Pointer
-
+- Linear Search
 
 
 # Sorting
@@ -35,6 +36,9 @@
 - Depth First Search
 - Breath First Search
 - Topological Sort 
+- Dijkstra's 
+- A* Algorithm
+- 
 
 - AVL Trees
 - Red Black Trees
