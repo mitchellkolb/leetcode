@@ -366,3 +366,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>125</td>
+        <td>
+            <a href="https://leetcode.com/problems/valid-palindrome/">
+                Valid Palindrome
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/125/valid-palindrome.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
