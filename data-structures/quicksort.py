@@ -43,3 +43,10 @@ Then I call quick sort on left and right until the base case is reached.
 
 As the call stack completes and the return statements arrive I then concatenate all the lists together and they should be sorted by doing this. Left list + pivot + Right List. Beause of the recursive nature of this algo all the left and right lists are sorted by the time they reach the inital recursive call.
 """
+
+"""
+This Time Complexity of Quicksort 
+- Best Case O(n log n), when the pivot divides the array into balanced partitions.
+- Worst Case O(n^2), when the pivot divides the array into highly unbalanced partitions (This could be a case when I've already sorted the array with a bad pivot choice)
+- Average Case O(n log n)
+"""
