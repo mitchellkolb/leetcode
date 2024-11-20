@@ -37,3 +37,9 @@ print(binarySearch(nums, target))
 Binary search takes the middle part of a sorted array and the two ends and determines If == return True but if current middle value is < or > the target adjust the corresponding end to the other side of middle and then run it again till found or not found. 
 """
 
+"""
+The Time Complexity of Binary Search is
+- Best Case O(1) where the target is found in the middle
+- Worst Case O(log n) where n is the size of the array
+
+"""
