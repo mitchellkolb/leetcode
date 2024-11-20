@@ -20,6 +20,10 @@ factorial a mathmatic problem where you multiply a number minus one to zero. 4! 
 This is a classic problem to showcase the programming strategy of recursion. I will solve it both using iteration and recursion
 """
 
+"""
+While this isnt an algorithm question that is traditional this still is a sorting style and the time complexity of preforming a factorial is O(N) where N is the size of the input. Kind of basic all things considered.
+"""
+
 
 nums = 4
 
