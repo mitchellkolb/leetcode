@@ -2,7 +2,13 @@
 
 # BFS or breath first search is like exploring a map layer by layer. Starting from a node, it checks all its immediate neighbors first before diving deeper into their neighbors. Think of it like a ripple in water, spreading outward evenly, ensuring you cover everything close before heading further away.
 
+"""
+The time complexity of BFS is
+    O( V + E )
+Where V is the number of vertices or nodes and E is the number of edge
 
+BFS vists each node once in the graph and examines each edge once, making it linear in terms of the size of the graph
+"""
 
 
 from collections import deque
