@@ -23,6 +23,9 @@ Finds the shortest path from the start node to all other nodes in the graph.
 Returns a dictionary with the shortest distance from the start node to each node.
    
 
+Time Complexity: The time complexity of Dijkstras algorithm is O(V^2). This is because the algorithm uses two nested loops to traverse the graph and find the shortest path from the source node to all other nodes.
+
+Space Complexity: The space complexity of Dijkstras algorithm is O(V), where V is the number of vertices in the graph. This is because the algorithm uses an array of size V to store the distances from the source node to all other nodes
 """
 
 def dijkstra():
