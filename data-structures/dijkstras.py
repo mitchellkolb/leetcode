@@ -1,14 +1,11 @@
 
-
+# Good video link to describe the process:     https://www.youtube.com/watch?v=pVfj6mxhdMw&list=TLPQMDUwMTIwMjX2bhV9Yla7cQ&index=3&pp=gAQBiAQB
 
 """
-“Dijkstras algorithm is used to calculate the shortest path for a weighted graph.
-            
-         
-Dijkstras algorithm works when all the weights are positive.
-            
-                 
-If you have negative weights, use the Bellman-Ford algorithm.”
+
+- Dijkstras algorithm is used to calculate the shortest path for a weighted graph     
+- Dijkstras algorithm works when all the weights are positive
+- If you have negative weights, use the Bellman-Ford algorithm
 
 Excerpt From
 Grokking Algorithms: An illustrated guide for programmers and other curious people
