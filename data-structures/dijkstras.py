@@ -51,6 +51,18 @@ def dijkstra(graph, start):
         
         # Mark the current node as visited
         visited.add(current_node)
+
+        # Explore neighbors
+        for neighbor, weight in graph[current_node]:
+            if neighbor in visited:
+                continue
+            
+            new_distance = current_distance + weight
+            
+            # If a shorter path to the neighbor is found, update the distance
+            if new_distance < distances[neighbor]:
+                distances[neighbor] = new_distance
+                unvisited_nodes.append((neighbor, new_distance))
         
 
         return distances
