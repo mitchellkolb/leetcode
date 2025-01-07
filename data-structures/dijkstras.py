@@ -29,7 +29,16 @@ Space Complexity: The space complexity of Dijkstras algorithm is O(V), where V i
 """
 
 def dijkstra():
-    pass
+    # Initialize distances for each node, with infinity for all except the start node
+    distances = {node: float('inf') for node in graph}
+    distances[start] = 0
+    
+    # Set to track visited nodes
+    visited = set()
+    
+    # List of unvisited nodes with their distances
+    unvisited_nodes = [(start, 0)]  # Each item is a tuple (node, current_distance)
+    
 
 # Weighted graph as adjacency list
 graph = {
