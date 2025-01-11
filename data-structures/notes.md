@@ -11,7 +11,10 @@
 --- 
 
 # Paterns / General
+- Arrays
+- Linked List
 - Stack
+- Queues
 - Prefix Sum
 - Top K elements
 - Sliding Window
@@ -19,6 +22,7 @@
 - Dynamic Programing
 - Heaps
 - HashMaps
+- Two Pointer Technique
 
 # Searching 
 - Binary Search
@@ -27,9 +31,13 @@
 
 
 # Sorting
+- Bubble Sort
 - QuickSort
 - Selection Sort
+- Insertion Sort
 - Merge Sort
+- Heap Sort
+- 
 
 
 # Graphs / Trees
@@ -37,6 +45,7 @@
 - Breath First Search
 - Topological Sort 
 - Dijkstra's 
+- Bellman–Ford
 - A* Algorithm
 - 
 
