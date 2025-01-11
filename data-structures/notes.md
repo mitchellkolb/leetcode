@@ -53,3 +53,4 @@
 - Red Black Trees
 - Binary Search Tree
 - Balanced Trees
+- Pre-order, In-order, Post-order
