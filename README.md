@@ -380,3 +380,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>27</td>
+        <td>
+            <a href="https://leetcode.com/problems/remove-element/">
+                Remove Element
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/27/remove-element.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
