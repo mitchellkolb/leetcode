@@ -2,13 +2,22 @@
 
 # This is a script to help automate the process to add code files into the right folder and edit the readme table when I submit my leetcodes solutions. 
 # For this to work, please put your leetcode code file in the temp folder and ensure that the Leetcode code file title is the same string as the file title and matches the problem label in the actual Leetcode URL. For example if you worked on problem: https://leetcode.com/problems/two-sum/    in python then you would put your code file in the temp folder with the name of the file as "two-sum.py". The file title "two-sum" is also refered to as the problem title. 
+# When running the script here is some test input assume abc.py is put in the temp folder:
+# leetcode % ./submit.sh  
+# Enter the Leetcode Problem Number: 999
+# Enter the Leetcode Problem Title: abc
+# Enter the Language Used: python
+# Enter the Difficulty: Hard
+# Directory 'algorithms/python/999' has been created
+# Moved Code successfully to ./algorithms/python/999/
+# The README.md is updated
 
 
 # User input
 read -p "Enter the Leetcode Problem Number: " leetNumber
-read -p "Enter the Leetcode Problem Title: " leetTitle
-read -p "Enter the Language Used: " leetLanguage
-read -p "Enter the Difficulty: " leetDifficulty
+read -p "Enter the Leetcode Problem Title: (no .py ext)" leetTitle
+read -p "Enter the Language Used: (e.g., python, cpp, sql)" leetLanguage
+read -p "Enter the Difficulty: (e.g., Easy, Medium, Hard)" leetDifficulty
 
 # If-else tree for the File Extension Language Variable
 capitalLanguage=""
