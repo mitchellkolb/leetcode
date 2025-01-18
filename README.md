@@ -409,3 +409,18 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <tr>
+        <td>1941</td>
+        <td>
+            <a href="https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/">
+                Check If All Characters Have Equal Number Of Occurrences
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/1941/check-if-all-characters-have-equal-number-of-occurrences.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
