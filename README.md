@@ -394,3 +394,18 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <tr>
+        <td>121</td>
+        <td>
+            <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">
+                Best Time To Buy And Sell Stock
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/121/best-time-to-buy-and-sell-stock.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
