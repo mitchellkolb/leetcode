@@ -424,3 +424,18 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <tr>
+        <td>141</td>
+        <td>
+            <a href="https://leetcode.com/problems/linked-list-cycle/">
+                Linked List Cycle
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/141/linked-list-cycle.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
