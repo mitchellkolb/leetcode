@@ -439,3 +439,18 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <tr>
+        <td>187</td>
+        <td>
+            <a href="https://leetcode.com/problems/repeated-dna-sequences/">
+                Repeated Dna Sequences
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/187/repeated-dna-sequences.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
