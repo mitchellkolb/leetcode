@@ -468,3 +468,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>22</td>
+        <td>
+            <a href="https://leetcode.com/problems/generate-parentheses/">
+                Generate Parentheses
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/22/generate-parentheses.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
