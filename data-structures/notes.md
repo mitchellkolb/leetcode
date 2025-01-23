@@ -14,6 +14,7 @@
 - [x] Arrays
 - [x] Linked List
 - [x] Stack
+    - [ ] Monotonic Stack
 - [x] Queues
 - [ ] Prefix Sum
 - [ ] Top K elements
