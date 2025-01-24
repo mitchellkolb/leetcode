@@ -19,10 +19,10 @@
 - [ ] Prefix Sum
 - [ ] Top K elements
 - [ ] Sliding Window
-- [ ] Backtracking
+- [x] Backtracking
 - [ ] Dynamic Programing
 - [ ] Heaps
-- [ ] HashMaps
+- [x] HashMaps
 - [x] Two Pointer Technique
 
 # Searching 
