@@ -36,7 +36,8 @@ def backtrack_subsets(start, path, nums, result):
         backtrack_subsets(i + 1, path, nums, result)  # Recursive call
         path.pop()  # Backtrack: Remove the last number
 
-# Driver code
+
+
 nums = [1, 2, 3]
 result = []
 backtrack_subsets(0, [], nums, result)

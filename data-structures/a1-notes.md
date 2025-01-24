@@ -14,15 +14,15 @@
 - [x] Arrays
 - [x] Linked List
 - [x] Stack
-    - [ ] Monotonic Stack
+- [ ] Monotonic Stack
 - [x] Queues
 - [ ] Prefix Sum
-- [ ] Top K elements
 - [x] Two Pointer Technique
 - [ ] Sliding Window
 - [x] Backtracking
 - [ ] Dynamic Programing
-- [ ] Heaps
+- [ ] Heaps or Priority Queue
+    - [ ] Top K elements
 - [x] HashMaps
 
 
