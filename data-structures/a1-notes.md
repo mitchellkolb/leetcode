@@ -10,7 +10,7 @@
 
 --- 
 
-# Paterns / General
+# Patterns / General
 - [x] Arrays
 - [x] Linked List
 - [x] Stack
@@ -18,39 +18,50 @@
 - [x] Queues
 - [ ] Prefix Sum
 - [ ] Top K elements
+- [x] Two Pointer Technique
 - [ ] Sliding Window
 - [x] Backtracking
 - [ ] Dynamic Programing
 - [ ] Heaps
 - [x] HashMaps
-- [x] Two Pointer Technique
+
+
+
+
 
 # Searching 
 - [x] Binary Search
-- [ ] Two Pointer
 - [ ] Linear Search
 
 
+
+
 # Sorting
-- [ ] Bubble Sort
 - [x] QuickSort
-- [x] Selection Sort
-- [ ] Insertion Sort
 - [ ] Merge Sort
 - [ ] Heap Sort
+- [ ] Insertion Sort
+- [x] Selection Sort
+- [ ] Bucket Sort
+- [ ] Bubble Sort
+
 
 
 
 # Graphs / Trees
+## Traversals
 - [ ] Depth First Search
-- [x] Breath First Search
-- [ ] Topological Sort 
-- [x] Dijkstra's 
-- [ ] Bellman–Ford
+- [x] Breadth First Search
+
+## Graph Algorithms
+- [ ] Topological Sort
+
+## Shortest Path Algorithms
+- [x] Dijkstra's
+- [ ] Bellman-Ford
 - [ ] A* Algorithm
 
-
-
+## Topics
 - [ ] AVL Trees
 - [ ] Red Black Trees
 - [ ] Binary Search Tree
