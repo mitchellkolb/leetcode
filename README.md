@@ -482,3 +482,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>206</td>
+        <td>
+            <a href="https://leetcode.com/problems/reverse-linked-list/">
+                Reverse Linked List
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/206/reverse-linked-list.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
