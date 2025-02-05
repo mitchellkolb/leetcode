@@ -496,3 +496,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>21</td>
+        <td>
+            <a href="https://leetcode.com/problems/merge-two-sorted-lists/">
+                Merge Two Sorted Lists
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/21/merge-two-sorted-lists.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
