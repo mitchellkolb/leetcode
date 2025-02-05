@@ -510,3 +510,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>412</td>
+        <td>
+            <a href="https://leetcode.com/problems/fizz-buzz/">
+                Fizz Buzz
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/412/fizz-buzz.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
