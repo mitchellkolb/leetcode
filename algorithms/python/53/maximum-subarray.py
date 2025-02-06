@@ -43,7 +43,30 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 
 class Solution:
     def maxSubArray(self, nums: list[int]) -> int:
-        pass
+        """
+        - maxSub
+            - every iteration pick max of maxSum or currsum
+            - make it start at nums[0] for the smallest array size
+        - CurrSum
+            - every iteration check if < 0
+                If < 0: reset to 0
+                If > 0: Nothing
+                Else: CurrSum += Nums
+        - Nums iterated through with for loop
+        - Return the maxSub
+        """
+
+        maxSub = nums[0]
+        currSum = 0
+        for num in nums:
+            if currSum < 0:
+                currSum = 0
+            currSum += num
+            maxSub = max(maxSub, currSum)
+
+        return maxSub
+        
+
 
 solution = Solution()
 tests = [[-2,1,-3,4,-1,2,1,-5,4], [1], [5,4,-1,7,8]]

@@ -538,3 +538,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>53</td>
+        <td>
+            <a href="https://leetcode.com/problems/maximum-subarray/">
+                Maximum Subarray
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/53/maximum-subarray.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
