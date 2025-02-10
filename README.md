@@ -552,3 +552,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>167</td>
+        <td>
+            <a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">
+                Two Sum Ii Input Array Is Sorted
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/167/two-sum-ii-input-array-is-sorted.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
