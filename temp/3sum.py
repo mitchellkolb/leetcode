@@ -52,7 +52,50 @@ class Solution:
             # have one pointer go through the list call this p1
             # for every p1 item use my two sum algo on the rest of the list to the right of p1
             # Have to find out what to do with dups though
-        pass
+        
+        
+        
+        # Step 1: Sort the input list so we can use the two-pointer approach.
+        nums.sort()
+        resultList = []
+        n = len(nums)
+        
+        # Step 2: Iterate through each number, treating each as the first element (p1) of a triplet.
+        for p1Index in range(n):
+            # Skip duplicate values for p1 to avoid duplicate triplets.
+            if p1Index > 0 and nums[p1Index] == nums[p1Index - 1]:
+                continue
+            
+            # The target for the two-sum problem becomes the negative of the current p1.
+            targetSum = -nums[p1Index]
+            leftIndex = p1Index + 1
+            rightIndex = n - 1
+            
+            # Step 3: Use a two-pointer approach on the subarray to the right of p1.
+            while leftIndex < rightIndex:
+                currentTwoSum = nums[leftIndex] + nums[rightIndex]
+                
+                if currentTwoSum < targetSum:
+                    # Move the left pointer to increase the sum.
+                    leftIndex += 1
+                elif currentTwoSum > targetSum:
+                    # Move the right pointer to decrease the sum.
+                    rightIndex -= 1
+                else:
+                    # Found a valid triplet that sums to zero.
+                    resultList.append([nums[p1Index], nums[leftIndex], nums[rightIndex]])
+                    leftIndex += 1
+                    rightIndex -= 1
+                    
+                    # Skip duplicate values for leftIndex.
+                    while leftIndex < rightIndex and nums[leftIndex] == nums[leftIndex - 1]:
+                        leftIndex += 1
+                    
+                    # Skip duplicate values for rightIndex.
+                    while leftIndex < rightIndex and nums[rightIndex] == nums[rightIndex + 1]:
+                        rightIndex -= 1
+        
+        return resultList
 
 solution = Solution()
 tests = [[-1,0,1,2,-1,-4], [0,1,1], [0,0,0]]
