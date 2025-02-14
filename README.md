@@ -581,3 +581,18 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <tr>
+        <td>143</td>
+        <td>
+            <a href="https://leetcode.com/problems/reorder-list/">
+                Reorder List
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/143/reorder-list.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
