@@ -566,3 +566,18 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <tr>
+        <td>15</td>
+        <td>
+            <a href="https://leetcode.com/problems/3sum/">
+                3sum
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/15/3sum.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
