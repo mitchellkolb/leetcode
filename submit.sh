@@ -15,9 +15,9 @@
 
 # User input
 read -p "Enter the Leetcode Problem Number: " leetNumber
-read -p "Enter the Leetcode Problem Title: (no .py ext)" leetTitle
-read -p "Enter the Language Used: (e.g., python, cpp, sql)" leetLanguage
-read -p "Enter the Difficulty: (e.g., Easy, Medium, Hard)" leetDifficulty
+read -p "Enter the Leetcode Problem Title (no .py ext): " leetTitle
+read -p "Enter the Language Used (e.g., python, cpp, sql): " leetLanguage
+read -p "Enter the Difficulty (e.g., Easy, Medium, Hard): " leetDifficulty
 
 # If-else tree for the File Extension Language Variable
 capitalLanguage=""
