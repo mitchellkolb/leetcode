@@ -79,3 +79,12 @@ class Solution:
             second.next = temp1
             first = temp1
             second = temp2
+
+
+
+tests = [[1,2,3,4], [1,2,3,4,5]]
+
+solution = Solution()
+for test in tests:
+    print(solution.reorderList(test))
+
