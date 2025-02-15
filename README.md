@@ -596,3 +596,31 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>1290</td>
+        <td>
+            <a href="https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/">
+                Convert Binary Number In A Linked List To Integer
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/1290/convert-binary-number-in-a-linked-list-to-integer.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>876</td>
+        <td>
+            <a href="https://leetcode.com/problems/middle-of-the-linked-list/">
+                Middle Of The Linked List
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/876/middle-of-the-linked-list.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
