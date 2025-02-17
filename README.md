@@ -624,3 +624,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>19</td>
+        <td>
+            <a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/">
+                Remove Nth Node From End Of List
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/19/remove-nth-node-from-end-of-list.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
