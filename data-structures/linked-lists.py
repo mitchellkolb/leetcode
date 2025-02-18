@@ -1,5 +1,10 @@
 
+"""
+A linked list is essentially a chain of nodes where each node holds some data along with a reference to the next node in line. This design makes it really easy to insert or remove elements anywhere in the list without having to shift the entire collection, unlike with arrays. However, because each element points to the next one, you can’t instantly jump to a specific spot—you have to start at the beginning and work your way through.
 
+There are different types of linked lists, like singly linked lists where each node only points forward, and doubly linked lists that allow you to go both forwards and backwards. This flexibility makes linked lists a great choice when you’re dealing with a dynamic set of elements, such as in stacks, queues, or even more complex structures.
+
+"""
 
 
 # Leetcode doesn't provide enough boilerplate code to make their linked list code work and since I want to debug and/or visualize my solutions to solve them I want to use this boilerplate code to make it work.
