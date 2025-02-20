@@ -652,3 +652,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>74</td>
+        <td>
+            <a href="https://leetcode.com/problems/search-a-2d-matrix/">
+                Search A 2D Matrix
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/74/search-a-2d-matrix.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
