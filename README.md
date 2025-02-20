@@ -666,3 +666,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>875</td>
+        <td>
+            <a href="https://leetcode.com/problems/koko-eating-bananas/">
+                Koko Eating Bananas
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/875/koko-eating-bananas.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
