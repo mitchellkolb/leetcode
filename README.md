@@ -638,3 +638,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>704</td>
+        <td>
+            <a href="https://leetcode.com/problems/binary-search/">
+                Binary Search
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/704/binary-search.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
