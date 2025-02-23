@@ -694,3 +694,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>2879</td>
+        <td>
+            <a href="https://leetcode.com/problems/display-the-first-three-rows/">
+                Display The First Three Rows
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/2879/display-the-first-three-rows.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
