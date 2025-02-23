@@ -708,3 +708,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>2769</td>
+        <td>
+            <a href="https://leetcode.com/problems/find-the-maximum-achievable-number/">
+                Find The Maximum Achievable Number
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/2769/find-the-maximum-achievable-number.py">
+                Python
+            </a>
+        </td>
+        <td>Easy</td>
+    </tr>
