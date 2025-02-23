@@ -76,16 +76,22 @@ def linkedListToList(head: Optional[ListNode]) -> List[int]:
 
 class Solution:
     def insertGreatestCommonDivisors(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if not head or head.next:
+        if not head or not head.next:
             return head
         
         left = head
         right = head.next
 
         while right:
-            gcd_int = self.gcd(left.value, right.value)
+            gcd_int = self.gcd(left.val, right.val)
             newNode = ListNode(gcd_int)
-            
+            left.next = newNode
+            newNode.next = right
+
+            left = right
+            right = right.next
+
+        return head
 
     def gcd(self, a: int, b: int) -> int:
         if (b == 0):
@@ -109,7 +115,7 @@ if __name__ == "__main__":
         head = listToLinkedList(testCase)
 
         # HERE
-        result = solution.function(head)
+        result = solution.insertGreatestCommonDivisors(head)
 
         resultList = linkedListToList(result)
         print("\tOutput:", resultList)

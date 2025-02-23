@@ -680,3 +680,17 @@ Welcome to my LeetCode Repo! Here I post all of my answers.
         </td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>2807</td>
+        <td>
+            <a href="https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/">
+                Insert Greatest Common Divisors In Linked List
+            </a>
+        </td>
+        <td>
+            <a href="./algorithms/python/2807/insert-greatest-common-divisors-in-linked-list.py">
+                Python
+            </a>
+        </td>
+        <td>Medium</td>
+    </tr>
