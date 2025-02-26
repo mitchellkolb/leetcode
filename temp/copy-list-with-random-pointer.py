@@ -115,7 +115,7 @@ class Solution:
         while setup is not None:
             # Make new node
             newNode = Node(setup.val)
-
+asadaasd
             # attach previous node .next to new node
             previous.next = newNode
 
