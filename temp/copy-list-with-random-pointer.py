@@ -101,30 +101,17 @@ def linkedListToList(head: Optional[Node]) -> List[List[Optional[int]]]:
 
 
 class Solution:
-    def copyRandomList(self, head: Optional[Node]) -> Optional[Node]:
-
-        if head is None:
-            return None
-
+    def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
+        oldToCopy = collections.defaultdict(lambda: Node(0))
+        oldToCopy[None] = None
         
-        deepCopy = Node(head.val)
-        setup = head.next
-        previous = deepCopy
-
-        # Create the basic linked list without worrying about .random conenction yet
-        while setup is not None:
-            # Make new node
-            newNode = Node(setup.val)
-asadaasd
-            # attach previous node .next to new node
-            previous.next = newNode
-
-            # move current setup and previous to next node
-            previous = newNode
-            setup = setup.next
-        
-        # go through all of head again to assign the randoms
-        return deepCopy
+        cur = head
+        while cur:
+            oldToCopy[cur].val = cur.val
+            oldToCopy[cur].next = oldToCopy[cur.next]
+            oldToCopy[cur].random = oldToCopy[cur.random]
+            cur = cur.next
+        return oldToCopy[head]
         
 
 
