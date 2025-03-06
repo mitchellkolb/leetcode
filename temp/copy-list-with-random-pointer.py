@@ -99,19 +99,30 @@ def linkedListToList(head: Optional[Node]) -> List[List[Optional[int]]]:
         outputList.append([node.val, randomIndex])
     return outputList
 
-
 class Solution:
-    def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        oldToCopy = collections.defaultdict(lambda: Node(0))
-        oldToCopy[None] = None
-        
-        cur = head
-        while cur:
-            oldToCopy[cur].val = cur.val
-            oldToCopy[cur].next = oldToCopy[cur.next]
-            oldToCopy[cur].random = oldToCopy[cur.random]
-            cur = cur.next
-        return oldToCopy[head]
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        if not head:
+            return None
+
+        # Create a mapping from old nodes to new nodes
+        oldToNew = {}
+
+        # First pass: create new nodes without linking next or random pointers
+        currentNode = head
+        while currentNode:
+            oldToNew[currentNode] = Node(currentNode.val)
+            currentNode = currentNode.next
+
+        # Second pass: assign next and random pointers
+        currentNode = head
+        while currentNode:
+            newNode = oldToNew[currentNode]
+            newNode.next = oldToNew.get(currentNode.next)
+            newNode.random = oldToNew.get(currentNode.random)
+            currentNode = currentNode.next
+
+        # Return the head of the copied list
+        return oldToNew[head]
         
 
 
